@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MAIN PAGE</title>
+    <link rel="stylesheet" text="text/css" href="/splash.css" />
+  </head>
+
+  <div class="menu-layout">
+    <div class="menu-item">
+      <a href="index.html"><p>HOME</p></a>
+    </div>
+    <hr />
+    <div class="menu-item"><a href="">Products and Services</a></div>
+    <hr />
+    <div class="menu-item"><a href="contact.html">Contact Us</a></div>
+  </div>
+  <body>
+    <div class="column-layout">
+      <h2>WELCOME TO POWERWASHMANIA</h2>
+
+      <img
+        src="https://img.freepik.com/premium-vector/power-wash-logo-with-letter-m-concept_11481-858.jpg?w=740"
+      />
+      <ul>
+        <li>Driveways</li>
+        <li>Trash Cans</li>
+        <li>Windows</li>
+      </ul>
+
+      <p1>
+        Here at POWERWASHMANIA, we strive to create the best<br />, customer
+        expierence. You don't like how a job was done?<br />
+        We will come out and fix it, no questions asked. We<br />do this because
+        we are a Christian based company, and we <br />feel as if our job is not
+        done, unless we are giving it<br />our 100%. We care for our customers,
+        and believe any human <br />
+        deserves the right to be treated fairly. Even at <br />
+        a level as little as a powerwash job. We offer our<br />
+        jobs at a flat rate of $20 + $15 per hour, and do not<br />
+        worry, we are not procrastinators. If we take over an<br />
+        hour and a half per indivisual clean, then you get<br />
+        the service FOR FREE! This will come with a <br />
+        negotiation before depending on the job size. We<br />
+        hope that you get the best experience, THANKYOU!
+      </p1>
+    </div>
+    <div id="specialoffers" class="call-out-container">
+      <div class="call-out">
+        <p2>
+          <h4>THANKSGIVING SPECIAL</h4>
+          We are offering a free service with the purchase of one! Meaning, if
+          you pay for a driveway powerwash, then you could get another wash of
+          your choice done for free!
+          <a href="">Learn More</a>
+        </p2>
+      </div>
+      <div class="call-out">
+        <p2>
+          <h4>Holiday Season</h4>
+          We are donating 15% of our earnings to kids in need. Some people
+          cannot celebrate like we can, so we want to make their season. We will
+          use the money to buy them gifts.
+          <a href=""> LEARN MORE</a>
+        </p2>
+      </div>
+      <div style="text-align: center">
+        <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+      </div>
+      <script>
+      function hideAds() {
+        var x = document.getElementById ("specialoffers");
+        var y = document.getElementById ("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+      </script>
+    </div>
+  </body>
+</html>
